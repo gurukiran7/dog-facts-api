@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    color: white;
+    background-image: url('dog.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+  }
+  .container{
+    position: absolute;
+    top: 40%;
+    font-size: 3rem;
+    font-family: sans-serif;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .boxes{
+    display: flex;
+  }
+  .box{
+    width: 30vw;
+    height: 38vh;
+    background-color: slategray;
+    padding: 3vh;
+    margin: 3vh;
+    border-radius: 10px;
+  }
+  @media only sceen and (max-width: 490px){
+    .boxes{
+      flex-direction: column;
+    }
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
